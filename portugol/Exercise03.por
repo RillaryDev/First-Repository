@@ -1,35 +1,28 @@
-programa/*Crie um programa que leia o nome e o salário de um funcionário, mostrando no final uma mensagem.
-*/
+programa /* Crie um programa que leia o nome e o salário de um funcionário, mostrando no final uma mensagem.*/
+
 {
+	
 	funcao inicio()
 	{
-		
-		cadeia nome
+		real n1, n2, media
 
-		real salario 
-		
+		escreva ("Nota 1: ")
+		leia (n1) 
 
-	 	escreva ("Nome do funcionário: ")
-		
-		leia (nome)
+		escreva ("Nota 2: ")
+		leia (n2)
 
-		
-		escreva ("Salário: ") 
+		media = (n1 + n2)/2
 
-		leia (salario)
-		
-
-		escreva ("O funcionário " + nome + " tem um salário de R$ " + salario + " em Junho." ) 
-
-	}	
-
+		escreva ("A média entre " + n1 + " e " + n2 + " é igual a " + media )
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 106; 
+ * @POSICAO-CURSOR = 89; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

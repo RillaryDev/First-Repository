@@ -1,35 +1,30 @@
-programa/*Crie um programa que leia o nome e o salário de um funcionário, mostrando no final uma mensagem.
-*/
+programa /* Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório entre eles. */
+
 {
+	
 	funcao inicio()
 	{
+
+		real n1, n2, soma
 		
-		cadeia nome
+		escreva ("Digite um valor: ")
+		leia (n1)
 
-		real salario 
-		
+		escreva ("Digite outro valor: ")
+		leia (n2)
 
-	 	escreva ("Nome do funcionário: ")
-		
-		leia (nome)
+ 		soma = n1 + n2
 
-		
-		escreva ("Salário: ") 
-
-		leia (salario)
-		
-
-		escreva ("O funcionário " + nome + " tem um salário de R$ " + salario + " em Junho." ) 
-
-	}	
-
+ 		escreva ("A soma entre " + n1 + " e " + n2 + " é igual a " + soma + ".")
+	
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 106; 
+ * @POSICAO-CURSOR = 88; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
